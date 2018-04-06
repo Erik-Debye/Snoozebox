@@ -54,7 +54,7 @@ h2{
     color:#fff;
     background-color:#247bd1;
     margin:0;
-    padding:10px;
+    padding:1%;
 }
 
 .section-pricing h2{
@@ -228,10 +228,9 @@ header{
 .pop-scents{
     list-style: none;
     width:100%;
+    display: flex;
 }
 .pop-scents li{
-    display: block;
-    float: left;
     width: 25%;
 }
 
@@ -246,7 +245,7 @@ header{
     opacity: .7;
     width: 100%;
     height: auto;
-    transform: scale(1.15);
+    transform: scale(1.16);
     transition: transform 0.6s , opacity 0.6s;
 }
 
