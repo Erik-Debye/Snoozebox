@@ -50,17 +50,24 @@ h2{
     word-spacing: 2px;
 }
 
-.scent-header h2{
-    color:#fff;
-    background-color:#247bd1;
-    margin:0;
-    padding:1%;
+.sub-header{
+margin: 0;
+padding: 0%;
 }
 
-.section-pricing h2{
+.scents-section h2{
+    color:#fff;
+    background-color:#247bd1;
+    margin: 0%;
+    padding: .5%;
+}
+
+.price-section h2{
+    margin: .5%;
+    padding:2%;
     text-align: center;
-    margin-right: 15%;
-    font-size:110%;
+    color: #247bd1;
+    font-size: 200%;
 }
 
 h3{
@@ -100,20 +107,21 @@ h3{
 /*Section and Sections Specifics*/
 
 section{
-    padding: 50px 0;
+    padding:0;
 }
 
 .section-features{
     background-color: #ececec;
+    padding: 4% 0%;
 }
 
-.scent-ex-section{
-    padding:0;
+.scents-section{
+    padding: 0%;
 }
 
-.section-pricing{
+.price-section{
     background-color: #ececec;
-    padding: 0;
+    display: block;
 }
 
 /*Buttons*/
@@ -151,6 +159,7 @@ section{
     width: auto;
     margin-top:15px;
     padding: 0px;
+    background-size: contain;
 }
 
 /*Navbar*/
@@ -225,12 +234,12 @@ header{
 
 /*Scent Showcase*/
 
-.pop-scents{
+.popular-scents{
     list-style: none;
     width:100%;
     display: flex;
 }
-.pop-scents li{
+.popular-scents li{
     width: 25%;
 }
 
@@ -253,3 +262,63 @@ header{
     transform: scale(1.03);
     opacity: 0.9;
     }
+
+
+/*////////////////////////////////////Price Tables////////////////////////////////////////////*/
+
+.price-tables{
+    color:#247bd1;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40%;
+    padding-bottom: 2%;
+}
+
+.table{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 2%;
+    width: 30%;
+    box-shadow: 2px 2px 2px 2px rgba(95, 94, 94, 0.3);
+}
+
+#box-icon-1{
+    margin-left:40px;
+    color:#247bd1;
+}
+
+#box-icon-2{
+    margin-left:40px;
+    color:#862974;
+}
+
+#box-icon-3{
+    margin-left:40px;
+    color:#f13c3cfb;
+}
+
+.table h5{
+    font-size: 150%;
+    padding:3%;
+}
+
+.table h4{
+    font-size:120%;
+}
+
+.table p{
+    padding: 3%;
+}
+
+.table li{
+    font-size: 85%;
+    list-style-type: none;
+    padding:3%;
+    border-bottom: solid .5px rgb(99, 96, 96);
+}
+
+.table-btn{
+    padding:5%;
+}
