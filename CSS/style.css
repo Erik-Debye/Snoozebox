@@ -326,9 +326,80 @@ header{
     padding:5%;
 }
 
-/***************************************Contact Form and Footer showcase*********************************************************/
+/***************************************Contact Form showcase*********************************************************/
 
-.footer-section{
-    background-color: #ececec;
+input{ 
+    margin-bottom: 10px;
+}
+
+.contact-section{
+    background-color: #247bd1;
+}
+
+.contact-section h2 p h3{
+    color: #ececec;
+}
+
+.contact-section h2{
+    margin: 0;
+    color: #FFF;
+    font-weight: 400;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+.table-row{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    flex-direction: row;
+}
+.contact-table{
+    box-sizing: border-box;
+    padding: 2%;
+    width: 50%;
+}
+
+.form-labels{
+    flex-direction: column;
+    display: flex;
+    padding: 2%;
+}
+.contact-icon{
+    color: #ececec;
+    font-size: 300%;
+    padding:2%;
+    margin-right: 100px;
+}
+
+#short-label{
+    padding: 2%;
+}
+
+textarea{
+    padding-top: 2%;
+    padding-left: 2%;
+    overflow: auto; 
+}
+
+/*Icons*/
+
+.all-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-caption{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: center;
+    color: #FFF;
+}
+
+.contact-caption h3{
+    padding: 2%;
+    margin: 1%;
 }
 
