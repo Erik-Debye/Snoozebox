@@ -46,21 +46,28 @@ h1{
 h2{
     font-size: 160%;
     word-spacing: 2px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     word-spacing: 2px;
 }
 
-.scent-header h2{
-    color:#fff;
-    background-color:#247bd1;
-    margin:0;
-    padding:10px;
+.sub-header{
+margin: 0;
+padding: 0%;
 }
 
-.section-pricing h2{
+.scents-section h2{
+    color:#fff;
+    background-color:#247bd1;
+    margin: 0%;
+    padding: 1%;
+}
+
+.price-section h2{
+    padding:2%;
     text-align: center;
-    margin-right: 15%;
-    font-size:110%;
+    color: #247bd1;
+    font-size: 200%;
+    margin: 0;
 }
 
 h3{
@@ -100,20 +107,21 @@ h3{
 /*Section and Sections Specifics*/
 
 section{
-    padding: 50px 0;
+    padding:0;
 }
 
 .section-features{
     background-color: #ececec;
+    padding: 4% 0%;
 }
 
-.scent-ex-section{
-    padding:0;
+.scents-section{
+    padding: 0%;
 }
 
-.section-pricing{
+.price-section{
     background-color: #ececec;
-    padding: 0;
+    display: block;
 }
 
 /*Buttons*/
@@ -138,8 +146,8 @@ section{
 
 .btn-full:hover,
 .btn-full:active{
-    background-color: #2c3e50;
-    border:1px solid #2c3e50;
+    background-color: #2766a5;
+    border:1px solid #2766a5;
     margin-right: 15px;
 }
 
@@ -151,6 +159,7 @@ section{
     width: auto;
     margin-top:15px;
     padding: 0px;
+    background-size: contain;
 }
 
 /*Navbar*/
@@ -212,7 +221,7 @@ header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("./IMG/FLIPPED.jpg");
     background-size: cover;
     background-position: center;
-    height:100vh;
+    height:90vh;
 }
 
 .welcome-message{
@@ -225,13 +234,12 @@ header{
 
 /*Scent Showcase*/
 
-.pop-scents{
+.popular-scents{
     list-style: none;
     width:100%;
+    display: flex;
 }
-.pop-scents li{
-    display: block;
-    float: left;
+.popular-scents li{
     width: 25%;
 }
 
@@ -243,14 +251,221 @@ header{
 }
 
 .scent-photo img{
-    opacity: .7;
     width: 100%;
     height: auto;
-    transform: scale(1.15);
-    transition: transform 0.6s , opacity 0.6s;
+    transform: scale(1.16);
+    transition: transform 0.6s;
 }
 
 .scent-photo img:hover{
     transform: scale(1.03);
-    opacity: 0.9;
     }
+
+
+/*////////////////////////////////////Price Tables////////////////////////////////////////////*/
+
+.price-tables{
+    color:#247bd1;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+
+}
+
+.table{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 2%;
+    width: 30%;
+    box-shadow: 3px 3px 3px 3px rgba(95, 94, 94, 0.3);
+}
+
+#box-icon-1{
+    margin-left:40px;
+    color:#247bd1;
+}
+
+#box-icon-2{
+    margin-left:40px;
+    color:#862974;
+}
+
+#box-icon-3{
+    margin-left:40px;
+    color:#f13c3cfb;
+}
+
+.table h5{
+    font-size: 150%;
+    padding:3%;
+    font-weight: 400;
+}
+
+.table h4{
+    font-size:120%;
+    font-weight: 300;
+}
+
+.table p{
+    padding: 3%;
+}
+
+.table li{
+    font-size: 85%;
+    list-style-type: none;
+    padding:3%;
+    border-bottom: solid .5px rgb(99, 96, 96);
+    text-align: left;
+}
+
+.table-btn{
+    padding:5%;
+}
+
+/***************************************Contact Form showcase*********************************************************/
+
+input{ 
+    margin-bottom: 10px;
+}
+
+.contact-section{
+    background-color: #247bd1;
+}
+
+.contact-section h2 p h3{
+    color: #ececec;
+}
+
+.contact-section h2{
+    margin: 0;
+    color: #FFF;
+    font-weight: 400;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+.table-row{
+    text-align: center;
+    display: flex;
+    padding-bottom: 0;
+    flex-direction: row;
+}
+.contact-table{
+    box-sizing: border-box;
+    padding: 2%;
+    width: 50%;
+}
+
+.form-labels{
+    flex-direction: column;
+    display: flex;
+    padding: 2%;
+}
+.contact-icon{
+    color: #ececec;
+    font-size: 300%;
+    padding:2%;
+    margin-right: 100px;
+}
+
+#short-label{
+    padding: 2%;
+}
+
+textarea{
+    padding-top: 2%;
+    padding-left: 2%;
+    overflow: auto; 
+}
+
+/*Icons*/
+
+.all-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-caption{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: center;
+    color: #FFF;
+}
+
+.contact-caption h3{
+    padding: 2%;
+    margin: 1%;
+}
+
+.form-table{
+    flex-grow: 2;
+}
+
+.contact-icon-col{
+    margin-right: -25%;
+    margin-top: -.5%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.send-cont{
+    padding-bottom:4%;
+    margin:-2%;
+}
+
+.contact-btn:link,
+.contact-btn:visited{
+    display: inline-block;
+    margin-left:5%;
+    padding: 7px 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.send-btn:link,
+.send-btn:visited{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color:#247bd1;
+    margin-right: 15px;
+}
+
+.send-btn:hover,
+.send-btn:active{
+    background-color: #2766a5;
+    border:1px solid #2766a5;
+    color: #fff;
+    margin-right: 15px;
+}
+/*******************Footer Showcase*****************************/
+
+footer{
+    background-color: #000;
+}
+.footer{
+    color: #fff;
+    height: auto;
+    margin: 0;
+    padding: .5%;
+}
+
+.footer p{
+    font-size: 60%;
+    padding: .5%;
+}
+
+.footer-icon{
+    font-size: 200%;
+    padding: .5%;
+}
+
+#icon-1{
+    margin-left: 20%;
+}
