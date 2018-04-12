@@ -251,16 +251,14 @@ header{
 }
 
 .scent-photo img{
-    opacity: .7;
     width: 100%;
     height: auto;
     transform: scale(1.16);
-    transition: transform 0.6s , opacity 0.6s;
+    transition: transform 0.6s;
 }
 
 .scent-photo img:hover{
     transform: scale(1.03);
-    opacity: 0.9;
     }
 
 
@@ -350,8 +348,7 @@ input{
 .table-row{
     text-align: center;
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 5%;
+    padding-bottom: 0;
     flex-direction: row;
 }
 .contact-table{
@@ -403,3 +400,72 @@ textarea{
     margin: 1%;
 }
 
+.form-table{
+    flex-grow: 2;
+}
+
+.contact-icon-col{
+    margin-right: -25%;
+    margin-top: -.5%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.send-cont{
+    padding-bottom:4%;
+    margin:-2%;
+}
+
+.contact-btn:link,
+.contact-btn:visited{
+    display: inline-block;
+    margin-left:5%;
+    padding: 7px 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.send-btn:link,
+.send-btn:visited{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color:#247bd1;
+    margin-right: 15px;
+}
+
+.send-btn:hover,
+.send-btn:active{
+    background-color: #2766a5;
+    border:1px solid #2766a5;
+    color: #fff;
+    margin-right: 15px;
+}
+/*******************Footer Showcase*****************************/
+
+footer{
+    background-color: #000;
+}
+.footer{
+    color: #fff;
+    height: auto;
+    margin: 0;
+    padding: .5%;
+}
+
+.footer p{
+    font-size: 60%;
+    padding: .5%;
+}
+
+.footer-icon{
+    font-size: 200%;
+    padding: .5%;
+}
+
+#icon-1{
+    margin-left: 20%;
+}
