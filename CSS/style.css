@@ -269,6 +269,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 5%;
+    flex-wrap: wrap;
 
 }
 
@@ -417,7 +418,7 @@ textarea{
 .contact-btn:link,
 .contact-btn:visited{
     display: inline-block;
-    margin-left:5%;
+    margin-left:3%;
     padding: 7px 15px;
     font-weight: 300;
     text-decoration: none;
